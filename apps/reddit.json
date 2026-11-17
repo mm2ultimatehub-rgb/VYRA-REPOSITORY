@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "reddit",
+  "name": "Reddit",
+  "packageName": "com.reddit.frontpage",
+  "patchSources": [
+    {
+      "sourceId": "morphe-official",
+      "bundleVersion": "2.3.0",
+      "releaseUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0",
+      "targetVersions": [
+        "2026.46.0",
+        "2026.45.0",
+        "2026.44.0",
+        "2026.40.0",
+        "2026.24.0",
+        "2026.10.0"
+      ],
+      "status": "candidate",
+      "notes": "Upstream compatibility only; VYRA test pending."
+    },
+    {
+      "sourceId": "morphe-community-kareem",
+      "bundleVersion": "26.4.30-d38bd3",
+      "releaseUrl": "https://github.com/kareemlukitomo/morphe-patches/releases/tag/v26.4.30-d38bd3",
+      "targetVersions": [
+        "2026.17.0"
+      ],
+      "status": "experimental",
+      "notes": "Independent community bundle; older target version and not tested by VYRA."
+    }
+  ],
+  "apkSources": [
+    {
+      "type": "official-or-approved-source",
+      "status": "resolver-needed"
+    }
+  ],
+  "validation": {
+    "status": "not-tested",
+    "lastTested": null,
+    "deviceAbi": null,
+    "installTest": false,
+    "smokeTest": false
+  }
+}
