@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "instagram",
+  "name": "Instagram",
+  "packageName": "com.instagram.android",
+  "patchSources": [
+    {
+      "sourceId": "morphe-community-kareem",
+      "bundleVersion": "26.4.30-d38bd3",
+      "releaseUrl": "https://github.com/kareemlukitomo/morphe-patches/releases/tag/v26.4.30-d38bd3",
+      "targetVersions": [
+        "424.0.0.49.64"
+      ],
+      "status": "experimental",
+      "notes": "Community share-link patch only; old target version, requires fresh compatibility research."
+    }
+  ],
+  "apkSources": [
+    {
+      "type": "official-or-approved-source",
+      "status": "resolver-needed"
+    }
+  ],
+  "validation": {
+    "status": "not-tested",
+    "lastTested": null,
+    "deviceAbi": null,
+    "installTest": false,
+    "smokeTest": false
+  }
+}
