@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "packageName": "com.google.android.youtube",
+      "category": "video",
+      "status": "candidate",
+      "patchSourceIds": [
+        "morphe-official"
+      ],
+      "appRecord": "youtube.json"
+    },
+    {
+      "id": "youtube-music",
+      "name": "YouTube Music",
+      "packageName": "com.google.android.apps.youtube.music",
+      "category": "music",
+      "status": "candidate",
+      "patchSourceIds": [
+        "morphe-official"
+      ],
+      "appRecord": "youtube-music.json"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "packageName": "com.reddit.frontpage",
+      "category": "social",
+      "status": "candidate",
+      "patchSourceIds": [
+        "morphe-official",
+        "morphe-community-kareem"
+      ],
+      "appRecord": "reddit.json"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "packageName": "com.instagram.android",
+      "category": "social",
+      "status": "experimental",
+      "patchSourceIds": [
+        "morphe-community-kareem"
+      ],
+      "appRecord": "instagram.json"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "packageName": "com.zhiliaoapp.musically",
+      "category": "social",
+      "status": "experimental",
+      "patchSourceIds": [
+        "morphe-community-kareem"
+      ],
+      "appRecord": "tiktok.json"
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "packageName": "com.instagram.barcelona",
+      "category": "social",
+      "status": "experimental",
+      "patchSourceIds": [
+        "morphe-community-kareem"
+      ],
+      "appRecord": "threads.json"
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "packageName": "com.twitter.android",
+      "category": "social",
+      "status": "experimental",
+      "patchSourceIds": [
+        "morphe-community-kareem"
+      ],
+      "appRecord": "x.json"
+    }
+  ]
+}
