@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "youtube",
+  "name": "YouTube",
+  "packageName": "com.google.android.youtube",
+  "patchSources": [
+    {
+      "sourceId": "morphe-official",
+      "bundleVersion": "2.3.0",
+      "releaseUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0",
+      "targetVersions": [
+        "21.45.82",
+        "21.44.528",
+        "21.43.523",
+        "21.30.216",
+        "21.28.208",
+        "21.23.492",
+        "20.51.39",
+        "20.26.46"
+      ],
+      "status": "candidate",
+      "notes": "Upstream README compatibility only; VYRA end-to-end test pending."
+    }
+  ],
+  "apkSources": [
+    {
+      "type": "user-provided",
+      "status": "local-only",
+      "packageName": "com.google.android.youtube",
+      "versionName": "21.30.216",
+      "notes": "A test APK was supplied for local testing. It is not hosted or redistributed here."
+    }
+  ],
+  "validation": {
+    "status": "not-tested",
+    "lastTested": null,
+    "deviceAbi": null,
+    "installTest": false,
+    "smokeTest": false
+  }
+}
