@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/mm2ultimatehub-rgb/VYRA-REPOSITORY/main/schemas/catalog.schema.json",
+  "title": "VYRA Repository Index",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "repository",
+    "catalog",
+    "updatePolicy",
+    "statusDefinitions"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "repository": {
+      "const": "VYRA-REPOSITORY"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "catalog": {
+      "type": "object",
+      "required": [
+        "apps",
+        "patchSources"
+      ],
+      "properties": {
+        "apps": {
+          "type": "string",
+          "format": "uri"
+        },
+        "patchSources": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "additionalProperties": false
+    },
+    "updatePolicy": {
+      "type": "object",
+      "required": [
+        "checkOnLaunch",
+        "cacheMaxAgeHours",
+        "requireHttps",
+        "requireSha256ForBundles"
+      ],
+      "properties": {
+        "checkOnLaunch": {
+          "type": "boolean"
+        },
+        "cacheMaxAgeHours": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "requireHttps": {
+          "type": "boolean"
+        },
+        "requireSha256ForBundles": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "statusDefinitions": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}
