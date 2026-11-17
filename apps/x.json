@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "x",
+  "name": "X",
+  "packageName": "com.twitter.android",
+  "patchSources": [
+    {
+      "sourceId": "morphe-community-kareem",
+      "bundleVersion": "26.4.30-d38bd3",
+      "releaseUrl": "https://github.com/kareemlukitomo/morphe-patches/releases/tag/v26.4.30-d38bd3",
+      "targetVersions": [
+        "11.86.0-release.0"
+      ],
+      "status": "experimental",
+      "notes": "Community share-link and startup-check patches; old target version, requires security and compatibility review."
+    }
+  ],
+  "apkSources": [
+    {
+      "type": "official-or-approved-source",
+      "status": "resolver-needed"
+    }
+  ],
+  "validation": {
+    "status": "not-tested",
+    "lastTested": null,
+    "deviceAbi": null,
+    "installTest": false,
+    "smokeTest": false
+  }
+}
