@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "repository": "VYRA-REPOSITORY",
+  "generatedAt": "2026-11-17T00:00:00Z",
+  "catalog": {
+    "apps": "https://raw.githubusercontent.com/mm2ultimatehub-rgb/VYRA-REPOSITORY/main/apps/index.json",
+    "patchSources": "https://raw.githubusercontent.com/mm2ultimatehub-rgb/VYRA-REPOSITORY/main/sources/index.json"
+  },
+  "updatePolicy": {
+    "checkOnLaunch": true,
+    "cacheMaxAgeHours": 12,
+    "requireHttps": true,
+    "requireSha256ForBundles": true
+  },
+  "statusDefinitions": {
+    "candidate": "Listed by source; not end-to-end tested by VYRA",
+    "experimental": "Third-party or incomplete source requiring review",
+    "verified": "Applied, rebuilt, signature-checked, installed and smoke-tested",
+    "unsupported": "No compatible source currently known"
+  }
+}
