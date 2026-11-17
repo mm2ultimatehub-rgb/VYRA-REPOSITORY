@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "morphe-official",
+      "publisher": "MorpheApp",
+      "kind": "official-upstream",
+      "repository": "https://github.com/MorpheApp/morphe-patches",
+      "license": "GPL-3.0",
+      "latestRelease": {
+        "version": "2.3.0",
+        "publishedAt": "2026-11-16T13:10:51Z",
+        "page": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0",
+        "assetName": "patches-2.3.0.mpp",
+        "assetUrl": "https://github.com/MorpheApp/morphe-patches/releases/download/v2.3.0/patches-2.3.0.mpp",
+        "sha256": "1c37549274a2b6cf7f2e3e099d9b8cb641880b8a7dac323a95638a06bb4509a9",
+        "assetSizeBytes": 16663050
+      },
+      "trust": "official-publisher",
+      "execution": "disabled-until-reviewed",
+      "notes": "Digest comes from GitHub release metadata. VYRA does not host a copy."
+    },
+    {
+      "id": "morphe-community-kareem",
+      "publisher": "kareemlukitomo",
+      "kind": "independent-community",
+      "repository": "https://github.com/kareemlukitomo/morphe-patches",
+      "license": "See upstream repository and release terms",
+      "latestRelease": {
+        "version": "26.4.30-d38bd3",
+        "publishedAt": "2026-04-30T04:09:51Z",
+        "page": "https://github.com/kareemlukitomo/morphe-patches/releases/tag/v26.4.30-d38bd3",
+        "assetName": "patches-26.4.30-d38bd3.mpp",
+        "assetUrl": "https://github.com/kareemlukitomo/morphe-patches/releases/download/v26.4.30-d38bd3/patches-26.4.30-d38bd3.mpp",
+        "sha256": "94ad98dcfcaac0dead32827e4e8d80c3c8556a7c2912fc537185ac6def98cb3c",
+        "signatureUrl": "https://github.com/kareemlukitomo/morphe-patches/releases/download/v26.4.30-d38bd3/patches-26.4.30-d38bd3.mpp.asc"
+      },
+      "trust": "experimental-third-party",
+      "execution": "disabled-until-reviewed",
+      "notes": "Older third-party release. Treat as untrusted and do not auto-execute."
+    }
+  ]
+}
