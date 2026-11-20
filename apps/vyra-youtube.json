@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "vyra-youtube",
+  "name": "VYRA YouTube",
+  "packageName": "app.vyra.youtube",
+  "iconUrl": "https://raw.githubusercontent.com/mm2ultimatehub-rgb/VYRA-YOUTUBE/vyra-apk-final-build/branding/assets/vyra-glass-monogram-256.webp",
+  "version": {
+    "name": "21.30.217",
+    "code": 1561187875
+  },
+  "apkSources": [
+    {
+      "type": "vyra-release",
+      "status": "published",
+      "url": "https://github.com/mm2ultimatehub-rgb/VYRA-YOUTUBE/releases/download/vyra-build-206/VYRA-YouTube-21.30.217.apk",
+      "sha256": "b39fa1365104599acabbae495db7de1af1df6e6f59c5108107a662183c81e097",
+      "signingCertificateSha256": "8ef76e8c0d3bcc7e664966f772211c356192166683e4fb66485dcdf5464a9e53"
+    }
+  ],
+  "notes": "Published VYRA YouTube build. APK package/version/hash and VYRA signing certificate were checked; device installation and smoke testing have not yet been completed."
+}
