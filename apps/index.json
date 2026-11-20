@@ -78,6 +78,33 @@
         "morphe-community-kareem"
       ],
       "appRecord": "x.json"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "packageName": "com.spotify.music",
+      "category": "music",
+      "status": "catalog-only",
+      "patchSourceIds": [],
+      "appRecord": "spotify.json"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "packageName": "com.discord",
+      "category": "social",
+      "status": "catalog-only",
+      "patchSourceIds": [],
+      "appRecord": "discord.json"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "packageName": "org.telegram.messenger",
+      "category": "social",
+      "status": "catalog-only",
+      "patchSourceIds": [],
+      "appRecord": "telegram.json"
     }
   ]
 }
