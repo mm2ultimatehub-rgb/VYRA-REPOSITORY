@@ -2,6 +2,22 @@
   "schemaVersion": 1,
   "apps": [
     {
+      "id": "vyra-youtube",
+      "name": "VYRA YouTube",
+      "packageName": "app.vyra.youtube",
+      "category": "video",
+      "status": "experimental",
+      "patchSourceIds": [
+        "morphe-official"
+      ],
+      "appRecord": "vyra-youtube.json",
+      "iconUrl": "https://raw.githubusercontent.com/mm2ultimatehub-rgb/VYRA-YOUTUBE/vyra-apk-final-build/branding/assets/vyra-glass-monogram-256.webp",
+      "versionName": "21.30.217",
+      "versionCode": 1561187875,
+      "downloadUrl": "https://github.com/mm2ultimatehub-rgb/VYRA-YOUTUBE/releases/download/vyra-build-206/VYRA-YouTube-21.30.217.apk",
+      "sha256": "b39fa1365104599acabbae495db7de1af1df6e6f59c5108107a662183c81e097"
+    },
+    {
       "id": "youtube",
       "name": "YouTube",
       "packageName": "com.google.android.youtube",
