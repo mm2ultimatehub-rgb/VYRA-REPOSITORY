@@ -16,6 +16,7 @@
     "candidate": "Listed by source; not end-to-end tested by VYRA",
     "experimental": "Third-party or incomplete source requiring review",
     "verified": "Applied, rebuilt, signature-checked, installed and smoke-tested",
-    "unsupported": "No compatible source currently known"
+    "unsupported": "No compatible source currently known",
+    "catalog-only": "Listed in VYRA Store; currently links to the official app store and has no verified VYRA patch bundle or direct APK release."
   }
 }
