@@ -17,5 +17,24 @@
       "signingCertificateSha256": "8ef76e8c0d3bcc7e664966f772211c356192166683e4fb66485dcdf5464a9e53"
     }
   ],
-  "notes": "Published VYRA YouTube build. APK package/version/hash and VYRA signing certificate were checked; device installation and smoke testing have not yet been completed."
+  "notes": "Published VYRA YouTube build. APK package/version/hash and VYRA signing certificate were checked; device installation and smoke testing have not yet been completed.",
+  "patchSources": [
+    {
+      "sourceId": "morphe-official",
+      "bundleVersion": "2.3.0",
+      "releaseUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0",
+      "targetVersions": [
+        "21.30.216"
+      ],
+      "status": "candidate",
+      "notes": "Upstream patch source used for the base YouTube patch set; VYRA device install and runtime testing remain pending."
+    }
+  ],
+  "validation": {
+    "status": "built-signature-checked",
+    "lastTested": "2026-11-20",
+    "deviceAbi": null,
+    "installTest": false,
+    "smokeTest": false
+  }
 }
