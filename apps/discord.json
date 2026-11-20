@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "discord",
+  "name": "Discord",
+  "packageName": "com.discord",
+  "patchSources": [],
+  "apkSources": [
+    {
+      "type": "official-store",
+      "status": "link-only",
+      "url": "https://play.google.com/store/apps/details?id=com.discord",
+      "notes": "VYRA currently links to the official store; no verified VYRA patch bundle or direct APK release."
+    }
+  ],
+  "validation": {
+    "status": "not-tested",
+    "lastTested": null,
+    "deviceAbi": null,
+    "installTest": false,
+    "smokeTest": false
+  }
+}
