@@ -105,6 +105,42 @@
       "status": "catalog-only",
       "patchSourceIds": [],
       "appRecord": "telegram.json"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "packageName": "com.facebook.katana",
+      "category": "social",
+      "status": "catalog-only",
+      "patchSourceIds": [],
+      "appRecord": "facebook.json"
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "packageName": "tv.twitch.android.app",
+      "category": "video",
+      "status": "catalog-only",
+      "patchSourceIds": [],
+      "appRecord": "twitch.json"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "packageName": "com.pinterest",
+      "category": "social",
+      "status": "catalog-only",
+      "patchSourceIds": [],
+      "appRecord": "pinterest.json"
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "packageName": "com.facebook.orca",
+      "category": "messaging",
+      "status": "catalog-only",
+      "patchSourceIds": [],
+      "appRecord": "messenger.json"
     }
   ]
 }
